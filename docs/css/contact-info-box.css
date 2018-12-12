@@ -1,0 +1,71 @@
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+
+.box-container .box {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 1px solid rgb(0, 0, 0, .2);
+    color: #515769;
+    overflow: hidden;
+}
+
+.box-container .box:last-child {
+    border: none;
+}
+
+.box-container .box .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    transition: 0.5s;
+}
+.box-container .box .icon .fas{
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.box-container .box .icon .far{
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.box-container .box:hover .icon{
+    transform: translateY(-100%);
+}
+.box-container .box:hover .icon .fas{
+    transform: translateY(100px);
+    opacity: .1;
+    font-size: 40px;
+    transition-delay: 0.5s;
+}
+.box-container .box:hover .icon .far{
+    transform: translateY(100px);
+    opacity: .1;
+    font-size: 40px;
+    transition-delay: 0.5s;
+}
+.box-container .box .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.5s;
+    font-size: 18px;
+}
+.box-container .box:hover .details{
+    transform: translateY(0);
+}
