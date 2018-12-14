@@ -870,6 +870,7 @@ fieldset[disabled] .btn-theme {
 .box-container .box .icon .far {
     padding-right: 5px;
     transition: 0.5s;
+    color: #db4b40;
 }
 
 .box-container .box:hover .icon {
@@ -1349,8 +1350,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .content-lg {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /*------------------------------------------------------------------
