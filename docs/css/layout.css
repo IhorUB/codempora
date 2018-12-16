@@ -471,7 +471,47 @@ fieldset[disabled] .btn-theme {
 
 .footer .footer-list {
     margin-bottom: 0;
+    transition: 0.5s;
 }
+
+.footer ul li a {
+    display: block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.footer ul:hover li a {
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(5px);
+}
+
+.footer ul li a:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.footer ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #17bed2;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.footer ul li a:hover:before {
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
 
 .footer .footer-list-item {
     color: #cbd3e1;
@@ -1030,20 +1070,20 @@ fieldset[disabled] .btn-theme {
 }
 
 .form-control:focus {
-    color: #515769;
+    color: #fff;
     box-shadow: none;
 }
 
 .form-control:focus::-moz-placeholder {
-    color: #515769;
+    color: #fff;
 }
 
 .form-control:focus:-ms-input-placeholder {
-    color: #515769;
+    color: #fff;
 }
 
 .form-control:focus::-webkit-input-placeholder {
-    color: #515769;
+    color: #fff;
 }
 
 /*------------------------------------------------------------------
