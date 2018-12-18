@@ -1151,6 +1151,90 @@ fieldset[disabled] .btn-theme {
 .form-control:focus::-webkit-input-placeholder {
     color: #fff;
 }
+/*---modal form--*/
+.modal-body {
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0.5);
+    max-width: 600px;
+    text-align: center;
+}
+
+.modal-body h2 {
+    color: #666;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.input-field {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #666;
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+    resize: none;
+}
+
+.input-field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.input-field input:focus+label,
+.input-field textarea:focus+label,
+.input-field input:valid+label,
+.input-field textarea:valid+label,
+.input-field input:active+label,
+.input-field textarea:active+label {
+    top: -25px;
+    font-size: 14px;
+    padding: 2px 5px;
+    background: #ff006a;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-contact {
+    margin-top: 20px;
+    background: #ff006a;
+    color: #fff;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    background-color: #6b3aff;
+}
+/*---End modal form--*/
 
 /*------------------------------------------------------------------
     [Full Screen Carousel]

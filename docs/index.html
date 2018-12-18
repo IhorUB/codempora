@@ -567,7 +567,9 @@
                         </ul>
                     </div>
                     <div class="modal-btn-popup">
-                        <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                        <button type="submit" id="modal-form" data-toggle="modal"
+                                class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit
+                        </button>
                     </div>
                     <!-- End animate 3D social links-->
                 </div>
@@ -601,6 +603,45 @@
 <!-- Back To Top -->
 <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
+<!--========== Modal ==========-->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form-modal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="form-modal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="input-field">
+                        <input type="text" name="text" id="text" required>
+                        <label for="text">Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" name="email" id="email" required onchange="topInput()">
+                        <label id="label-mail" for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="mobile" id="mobile" required>
+                        <label for="mobile">Mobile</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea rows="5" name="text-message" id="text-message" required></textarea>
+                        <label for="text-message">Message</label>
+                    </div>
+                    <input type="submit" name="button" value="Send Message" class="btn-contact">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- CORE PLUGINS -->
 <script src="vendor/jquery.min.js" type="text/javascript"></script>
@@ -622,6 +663,7 @@
 <script src="js/components/swiper.min.js" type="text/javascript"></script>
 <script src="js/components/masonry.min.js" type="text/javascript"></script>
 <script src="js/components/tilt.jquery.js" type="text/javascript"></script>
+<!--tilt plugin property, hover effects for team-card-->
 <script type="text/javascript">
     $(document).ready(function () {
         $('.team-card').tilt({
@@ -630,6 +672,15 @@
             maxGlare: 0.4
         })
     })
+</script>
+<!--form input, fix animation bag-->
+<script type="text/javascript">
+    function topInput() {
+        let inputValue =  document.getElementById('email').value;
+        if(inputValue.length>0) {
+            return document.getElementById('label-mail').style.top = '-25px';
+        }
+    }
 </script>
 </body>
 <!-- END BODY -->
