@@ -566,9 +566,10 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- Button trigger modal -->
                     <div class="modal-btn-popup">
-                        <button type="submit" id="modal-form" data-toggle="modal"
-                                class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit
+                        <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase"
+                                data-toggle="modal" data-target="#form-modal">Submit
                         </button>
                     </div>
                     <!-- End animate 3D social links-->
@@ -604,11 +605,6 @@
 <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
 <!--========== Modal ==========-->
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form-modal">
-    Launch demo modal
-</button>
-
 <!-- Modal -->
 <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="form-modal" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -632,7 +628,7 @@
                         <label for="mobile">Mobile</label>
                     </div>
                     <div class="input-field">
-                        <textarea rows="5" name="text-message" id="text-message" required></textarea>
+                        <textarea rows="4" name="text-message" id="text-message" required></textarea>
                         <label for="text-message">Message</label>
                     </div>
                     <input type="submit" name="button" value="Send Message" class="btn-contact">
@@ -676,8 +672,8 @@
 <!--form input, fix animation bag-->
 <script type="text/javascript">
     function topInput() {
-        let inputValue =  document.getElementById('email').value;
-        if(inputValue.length>0) {
+        let inputValue = document.getElementById('email').value;
+        if (inputValue.length > 0) {
             return document.getElementById('label-mail').style.top = '-25px';
         }
     }

@@ -1168,6 +1168,10 @@ fieldset[disabled] .btn-theme {
     font-size: 30px;
     text-transform: uppercase;
 }
+.modal-body .close span{
+    font-size: 4rem;
+    color: #666;
+}
 .input-field {
     position: relative;
     width: 100%;
