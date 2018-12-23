@@ -94,6 +94,7 @@ h1 {
 
 h2 {
     font-size: 30px;
+    text-align: center;
 }
 
 h3 {
@@ -271,6 +272,9 @@ fieldset[disabled] .btn-theme {
     background: #fff;
     padding: 50px;
 }
+.service-element{
+    text-align: center;
+}
 
 .service .service-element,
 .service .service-info {
@@ -287,25 +291,6 @@ fieldset[disabled] .btn-theme {
     font-size: 30px;
     color: #999caa;
     margin-bottom: 30px;
-}
-
-.service:hover .service-element {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    -moz-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    transition-duration: 300ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.service:hover .service-info {
-    -webkit-transform: translate3d(0, -30%, 0);
-    -moz-transform: translate3d(0, -30%, 0);
-    transform: translate3d(0, -30%, 0);
-    transition-duration: 300ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 
@@ -1270,7 +1255,7 @@ fieldset[disabled] .btn-theme {
 .carousel-title {
     font-size: 80px;
     font-weight: 700;
-    color: #fff;
+    color: #5EBDAE;
     line-height: 1.1;
     text-transform: uppercase;
 }
