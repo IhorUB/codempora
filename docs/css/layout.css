@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+:root{
+    --h2-color: #FFFFFF;
+}
 html {
     overflow-x: hidden;
 }
@@ -16,7 +18,7 @@ p {
     font-size: 15px;
     font-weight: 400;
     font-family: Hind, sans-serif;
-    color: #a6a7aa;
+    color: #FFFFFF;
     line-height: 1.4;
     margin-bottom: 15px;
 }
@@ -32,7 +34,7 @@ li a {
 
 a {
     font-family: Hind, sans-serif;
-    color: #81848f;
+    color: #FFFFFF;
     outline: 0;
 }
 
@@ -67,20 +69,20 @@ span {
     color: #bfc1c7;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: Hind, sans-serif;
-    color: #515769;
+    color: #FFFFFF;
     line-height: 1.4;
     margin: 0 0 15px;
 }
 
-h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-    color: #515769;
+h1 > a, h3 > a, h4 > a  h5 > a, h6 > a {
+    color: #FFFFFF;
 }
 
-h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover {
-    color: #999caa;
+h1 > a:hover, h3 > a:hover, h5 > a:hover, h6 > a:hover {
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -93,8 +95,13 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    text-transform: uppercase;
+    font-size: 36px;
     text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
 }
 
 h3 {
@@ -260,7 +267,10 @@ fieldset[disabled] .btn-theme {
 .btn-theme-sm {
     font-size: 13px;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 10px 60px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 
@@ -291,6 +301,15 @@ fieldset[disabled] .btn-theme {
     font-size: 30px;
     color: #999caa;
     margin-bottom: 30px;
+}
+/*------------------------------------------------------------------
+[Portfolio]
+------------------------------------------------------------------*/
+#produts{
+    background: url("../img/1920x1080/bg-fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--h2-color);
 }
 
 
@@ -463,7 +482,7 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .logo {
-    width: 100px;
+    width: 200px;
     height: 100px;
     float: left;
     max-height: 95px;
@@ -481,7 +500,7 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
     display: inline-block;
-    width: 85px;
+    width: 200px;
     height: auto;
     max-width: 100%;
     max-height: 100%;
@@ -556,8 +575,9 @@ fieldset[disabled] .btn-theme {
     position: absolute;
     top: 45px;
     left: 0;
-    width: 9px;
-    height: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
     background: #17bed2;
     opacity: 0;
     content: " ";
@@ -892,9 +912,24 @@ fieldset[disabled] .btn-theme {
     background-color: #e4405f;
 }
 /* End 3D animate social links*/
+
+/*------------------------------------------------------------------
+  	[about us]
+------------------------------------------------------------------*/
+
+  .team-story p{
+      color: #000;
+  }
+
 /*------------------------------------------------------------------
   	[Team]
 ------------------------------------------------------------------*/
+#team{
+    background: url("../img/1920x1080/bg-team.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--h2-color);
+}
 .team-container {
     position: relative;
     display: grid;
@@ -1242,6 +1277,19 @@ fieldset[disabled] .btn-theme {
     width: auto;
     padding-left: 0;
     margin-left: 0;
+}
+.carousel-indicators li .active{
+    width: 40px!important;
+    height: 0!important;
+    border: 2px solid #FFFFFF!important;
+    margin-left: 10px!important;
+}
+.carousel-indicators li {
+    width: 40px!important;
+    height: 0!important;
+    border: 2px solid #FFFFFF!important;
+    margin: 0;
+    margin-left: 10px!important;
 }
 
 .carousel-centered {
