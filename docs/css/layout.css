@@ -888,9 +888,6 @@ fieldset[disabled] .btn-theme {
     max-width: 100%;
     margin: 0 auto;
 }
-@media (max-width: 690px) {
-
-}
 
 /*------------------------------------------------------------------
   	[Team]
