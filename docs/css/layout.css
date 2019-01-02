@@ -883,6 +883,14 @@ fieldset[disabled] .btn-theme {
 .team-story p {
     color: #000;
 }
+.responsive-img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+@media (max-width: 690px) {
+
+}
 
 /*------------------------------------------------------------------
   	[Team]
