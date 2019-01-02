@@ -22,11 +22,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="502" column="57" selection-start-line="502" selection-start-column="57" selection-end-line="502" selection-end-column="57" />
+                <state relative-caret-position="223">
+                  <caret line="279" column="62" selection-start-line="279" selection-start-column="62" selection-end-line="279" selection-end-column="62" />
                   <folding>
-                    <marker date="1546120200329" expanded="true" signature="1187:1249" ph="..." />
-                    <marker date="1546120200329" expanded="true" signature="1188:1249" ph="..." />
+                    <marker date="1546437580783" expanded="true" signature="1187:1249" ph="..." />
+                    <marker date="1546437580783" expanded="true" signature="1188:1249" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -39,8 +39,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="1023" column="24" selection-start-line="1023" selection-start-column="24" selection-end-line="1023" selection-end-column="24" />
+                <state relative-caret-position="338">
+                  <caret line="965" lean-forward="true" selection-start-line="965" selection-end-line="965" />
                 </state>
               </provider>
             </entry>
@@ -65,7 +65,6 @@
       <find>.content-lg</find>
       <find>img-responsive</find>
       <find>nav-item-hover</find>
-      <find>@media</find>
       <find>contac</find>
       <find>@media (max-width: 667px</find>
       <find>@med</find>
@@ -81,6 +80,10 @@
       <find>contact</find>
       <find>prod</find>
       <find>nav-footer</find>
+      <find>@media</find>
+      <find>@media (max-width: 550px)</find>
+      <find>margin</find>
+      <find>box</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -120,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,12 +195,14 @@
       <workItem from="1545781057179" duration="599000" />
       <workItem from="1545855456179" duration="599000" />
       <workItem from="1546086639431" duration="764000" />
-      <workItem from="1546087763884" duration="27685000" />
+      <workItem from="1546087763884" duration="28383000" />
+      <workItem from="1546386485024" duration="60000" />
+      <workItem from="1546433009607" duration="4171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80420000" />
+    <option name="totallyTimeSpent" value="85349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -215,7 +220,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.056410257" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.051282052" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,19 +338,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="502" column="57" selection-start-line="502" selection-start-column="57" selection-end-line="502" selection-end-column="57" />
+        <state relative-caret-position="223">
+          <caret line="279" column="62" selection-start-line="279" selection-start-column="62" selection-end-line="279" selection-end-column="62" />
           <folding>
-            <marker date="1546120200329" expanded="true" signature="1187:1249" ph="..." />
-            <marker date="1546120200329" expanded="true" signature="1188:1249" ph="..." />
+            <marker date="1546437580783" expanded="true" signature="1187:1249" ph="..." />
+            <marker date="1546437580783" expanded="true" signature="1188:1249" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="1023" column="24" selection-start-line="1023" selection-start-column="24" selection-end-line="1023" selection-end-column="24" />
+        <state relative-caret-position="338">
+          <caret line="965" lean-forward="true" selection-start-line="965" selection-end-line="965" />
         </state>
       </provider>
     </entry>

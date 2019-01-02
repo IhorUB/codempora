@@ -318,11 +318,12 @@ fieldset[disabled] .btn-theme {
 /*------------------------------------------------------------------
   	[Footer]
 ------------------------------------------------------------------*/
-.footer{
+.footer {
     text-align: center;
     border-top: 1px solid #FFFFFF;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .footer .nav-footer ul {
     display: flex;
     justify-content: center;
@@ -330,19 +331,28 @@ fieldset[disabled] .btn-theme {
     padding: 0;
     margin: 0;
 }
-.footer .nav-footer ul li{
+
+.footer .nav-footer ul li {
     list-style: none;
     padding: 10px;
 }
-.footer .nav-footer ul li a{
-   text-decoration: none;
+
+.footer .nav-footer ul li a {
+    text-decoration: none;
     color: var(--h2-color);
     font-size: 24px;
     list-style: none;
     padding: 10px;
 }
-.footer .nav-footer ul li a:hover{
+
+.footer .nav-footer ul li a:hover {
     opacity: 0.8;
+}
+
+@media (max-width: 550px) {
+    .footer .nav-footer {
+        display: none;
+    }
 }
 
 /*------------------------------------------------------------------
@@ -716,9 +726,7 @@ fieldset[disabled] .btn-theme {
 .social-animate-links {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
+    padding-top: 25%;
 }
 
 .social-animate-links ul {
@@ -804,21 +812,25 @@ fieldset[disabled] .btn-theme {
 
 /* End 3D animate social links*/
 /* contact-form*/
-.contact-form{
+.contact-form {
     max-width: 320px;
 }
+
 .input-field {
     position: relative;
     width: 100%;
     margin-top: 15px;
 }
-.col-field{
+
+.col-field {
     display: flex;
     justify-content: space-between;
 }
-.input-field .col-field input{
- width: 48%;
+
+.input-field .col-field input {
+    width: 48%;
 }
+
 .input-field input,
 .input-field textarea {
     padding: 5px 8px;
@@ -837,6 +849,7 @@ fieldset[disabled] .btn-theme {
 .input-field textarea::placeholder {
     color: #5EBDAE;
 }
+
 .btn-contact {
     margin-top: 5px;
     background: #5EBDAE;
@@ -851,13 +864,21 @@ fieldset[disabled] .btn-theme {
     cursor: pointer;
     width: 100%;
 }
-.btn-contact:hover{
+
+.btn-contact:hover {
     opacity: 0.8;
 }
 
-    /*------------------------------------------------------------------
-          [about us]
-    ------------------------------------------------------------------*/
+@media (max-width: 550px) {
+    .social-animate-links {
+        padding-top: 15%;
+    }
+}
+
+
+/*------------------------------------------------------------------
+      [about us]
+------------------------------------------------------------------*/
 
 .team-story p {
     color: #000;
@@ -928,19 +949,19 @@ fieldset[disabled] .btn-theme {
 }
 
 .team-container .team-card:nth-child(1) .team-content {
-    background: linear-gradient(0deg, #c21833, transparent);
+    background: linear-gradient(0deg, #5EBDAE, transparent);
 }
 
 .team-container .team-card:nth-child(2) .team-content {
-    background: linear-gradient(0deg, #fafafa, transparent);
+    background: linear-gradient(0deg, #5EBDAE, transparent);
 }
 
 .team-container .team-card:nth-child(3) .team-content {
-    background: linear-gradient(0deg, #8012a5, transparent);
+    background: linear-gradient(0deg, #5EBDAE, transparent);
 }
 
 .team-container .team-card:nth-child(4) .team-content {
-    background: linear-gradient(0deg, #3a414c, transparent);
+    background: linear-gradient(0deg, #5EBDAE, transparent);
 }
 
 .team-container .team-card .team-content h2 {
@@ -1121,7 +1142,6 @@ fieldset[disabled] .btn-theme {
 }
 
 
-
 /*------------------------------------------------------------------
     [Full Screen Carousel]
 ------------------------------------------------------------------*/
@@ -1141,20 +1161,20 @@ fieldset[disabled] .btn-theme {
     margin-left: 0;
 }
 
-.carousel-indicators li .active {
-    width: 40px !important;
-    height: 0 !important;
-    border: 2px solid #FFFFFF !important;
-    margin-left: 10px !important;
-}
-
 .carousel-indicators li {
-    width: 40px !important;
-    height: 0 !important;
-    border: 2px solid #FFFFFF !important;
+    width: 50px!important;
+    height: 0!important;
+    border: 1px solid #5EBDAE!important;
     margin: 0;
     margin-left: 10px !important;
 }
+.carousel-indicators  .active {
+    width: 50px!important;
+    height: 0!important;
+    border: 2px solid #5EBDAE!important;
+    margin-left: 10px !important;
+}
+
 
 .carousel-centered {
     position: absolute;
