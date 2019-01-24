@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="080dc040-f3c4-4de6-ad23-af56e115d3f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/team/Ihor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +22,11 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="368" column="50" lean-forward="true" selection-start-line="368" selection-start-column="50" selection-end-line="368" selection-end-column="50" />
+                <state relative-caret-position="328">
+                  <caret line="101" column="107" selection-start-line="101" selection-start-column="107" selection-end-line="101" selection-end-column="107" />
                   <folding>
-                    <marker date="1548069890488" expanded="true" signature="1187:1249" ph="..." />
-                    <marker date="1548069890488" expanded="true" signature="1188:1249" ph="..." />
+                    <marker date="1548334178398" expanded="true" signature="1187:1249" ph="..." />
+                    <marker date="1548334178398" expanded="true" signature="1188:1249" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -40,8 +39,8 @@
           <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="155">
-                  <caret line="932" column="21" selection-start-line="932" selection-start-column="21" selection-end-line="932" selection-end-column="21" />
+                <state relative-caret-position="240">
+                  <caret line="937" selection-start-line="937" selection-end-line="937" />
                 </state>
               </provider>
             </entry>
@@ -108,8 +107,8 @@
         <option value="$PROJECT_DIR$/docs/css/animate.css" />
         <option value="$PROJECT_DIR$/docs/vendor/jquery.smooth-scroll.js" />
         <option value="$PROJECT_DIR$/docs/js/components/scroll-nav.js" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/css/layout.css" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
       </list>
     </option>
   </component>
@@ -123,10 +122,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="604" />
+    <option name="y" value="59" />
+    <option name="width" value="810" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,11 +155,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../photo-studio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,18 +209,20 @@
       <workItem from="1546386485024" duration="60000" />
       <workItem from="1546433009607" duration="6191000" />
       <workItem from="1546535098301" duration="1263000" />
-      <workItem from="1548064613539" duration="5671000" />
+      <workItem from="1548064613539" duration="6127000" />
+      <workItem from="1548270180165" duration="1130000" />
+      <workItem from="1548332879182" duration="1298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94303000" />
+    <option name="totallyTimeSpent" value="97187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15153733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1500732" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -243,10 +244,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17038691" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
@@ -268,11 +269,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6307">
+          <caret line="371" column="62" selection-start-line="371" selection-start-column="62" selection-end-line="371" selection-end-column="62" />
+          <folding>
+            <marker date="1548334178398" expanded="true" signature="1187:1249" ph="..." />
+            <marker date="1548334178398" expanded="true" signature="1188:1249" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15929">
+          <caret line="937" selection-start-line="937" selection-end-line="937" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6307">
+          <caret line="371" column="62" selection-start-line="371" selection-start-column="62" selection-end-line="371" selection-end-column="62" />
+          <folding>
+            <marker date="1548334178398" expanded="true" signature="1187:1249" ph="..." />
+            <marker date="1548334178398" expanded="true" signature="1188:1249" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15929">
+          <caret line="937" lean-forward="true" selection-start-line="937" selection-end-line="937" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4896">
           <caret line="288" column="37" selection-start-line="288" selection-start-column="37" selection-end-line="288" selection-end-column="37" />
           <folding>
-            <marker date="1548069890488" expanded="true" signature="1187:1249" ph="..." />
-            <marker date="1548069890488" expanded="true" signature="1188:1249" ph="..." />
+            <marker date="1548334178398" expanded="true" signature="1187:1249" ph="..." />
+            <marker date="1548334178398" expanded="true" signature="1188:1249" ph="..." />
           </folding>
         </state>
       </provider>
@@ -370,21 +407,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
+    <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="368" column="50" lean-forward="true" selection-start-line="368" selection-start-column="50" selection-end-line="368" selection-end-column="50" />
-          <folding>
-            <marker date="1548069890488" expanded="true" signature="1187:1249" ph="..." />
-            <marker date="1548069890488" expanded="true" signature="1188:1249" ph="..." />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="937" selection-start-line="937" selection-end-line="937" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="932" column="21" selection-start-line="932" selection-start-column="21" selection-end-line="932" selection-end-column="21" />
+        <state relative-caret-position="328">
+          <caret line="101" column="107" selection-start-line="101" selection-start-column="107" selection-end-line="101" selection-end-column="107" />
+          <folding>
+            <marker date="1548334178398" expanded="true" signature="1187:1249" ph="..." />
+            <marker date="1548334178398" expanded="true" signature="1188:1249" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
