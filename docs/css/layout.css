@@ -1220,6 +1220,11 @@ fieldset[disabled] .btn-theme {
         font-size: 60px;
     }
 }
+@media (max-width: 400px) {
+    .carousel-title {
+        font-size: 48px;
+    }
+}
 
 /*----------------------------------
   Custome Style of Info Window
