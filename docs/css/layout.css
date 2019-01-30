@@ -900,6 +900,9 @@ fieldset[disabled] .btn-theme {
 
 .team-story p {
     color: #000;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 25px;
 }
 .responsive-img{
     display: block;
