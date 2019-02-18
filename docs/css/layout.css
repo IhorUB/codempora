@@ -915,6 +915,9 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 #team {
     background: url("../img/1920x1080/bg-team.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--h2-color);
@@ -934,7 +937,12 @@ fieldset[disabled] .btn-theme {
 .team-container .team-card {
     position: relative;
     overflow: hidden;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
     border-radius: 17px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     background-color: #ccc;
 }
@@ -947,16 +955,20 @@ fieldset[disabled] .btn-theme {
     position: relative;
     width: 100%;
     height: 100%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 
 .team-container .team-card .img-box img {
     width: 100%;
     display: block;
-
 }
 
 .team-container .team-card:hover .img-box {
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
     opacity: 0.5;
 }
 
@@ -970,23 +982,36 @@ fieldset[disabled] .btn-theme {
     bottom: -100%;
     padding: 60px 20px 20px 20px;
     text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 
 .team-container .team-card:nth-child(1) .team-content {
+   background:  -webkit-linear-gradient(0deg, #5EBDAE, transparent);
+   background:  -moz-linear-gradient(0deg, #5EBDAE, transparent);
     background: linear-gradient(0deg, #5EBDAE, transparent);
 }
 
 .team-container .team-card:nth-child(2) .team-content {
-    background: linear-gradient(0deg, #5EBDAE, transparent);
+   background:  -webkit-linear-gradient(0deg, #5EBDAE, transparent);
+   background:  -moz-linear-gradient(0deg, #5EBDAE, transparent);
+    background: linear-gradient(0deg, #5EBDAE, transparent);;
 }
 
 .team-container .team-card:nth-child(3) .team-content {
+   background:  -webkit-linear-gradient(0deg, #5EBDAE, transparent);
+   background:  -moz-linear-gradient(0deg, #5EBDAE, transparent);
     background: linear-gradient(0deg, #5EBDAE, transparent);
 }
 
 .team-container .team-card:nth-child(4) .team-content {
+    background: -webkit-linear-gradient(0deg, #5EBDAE, transparent);
+    background: -moz-linear-gradient(0deg, #5EBDAE, transparent);
     background: linear-gradient(0deg, #5EBDAE, transparent);
 }
 
@@ -1010,10 +1035,16 @@ fieldset[disabled] .btn-theme {
 }
 
 .team-container .team-card .team-content ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 20px 0 0;
     padding: 0;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: center;
     justify-content: center;
 }
 
@@ -1025,6 +1056,9 @@ fieldset[disabled] .btn-theme {
     color: #fff;
     padding: 0 10px;
     font-size: 18px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 
