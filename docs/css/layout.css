@@ -967,7 +967,7 @@ fieldset[disabled] .btn-theme {
 
 #team .team-card .details {
     position: absolute;
-    bottom: -42%;
+    bottom: -100%;
     left: 0;
     width: 100%;
     padding: 10px;
@@ -982,31 +982,28 @@ fieldset[disabled] .btn-theme {
 }
 
 #team .team-card .details h2 {
+    display: block;
     margin: 0;
     padding: 0;
     color: #fff;
     text-transform: uppercase;
-    text-align: right;
-    line-height: 0.9;
-
-
+    text-align: center;
 }
 
 #team .team-card .details h2 span {
     position: relative;
     top: -5px;
-    font-size: 14px;
-    color: #2c2c2c;
+    font-size: 16px;
+    color: #2C303E;
+    font-weight: bold;
     text-transform: uppercase;
-
 }
 
 #team .team-card .details ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: center;
 }
 
 #team .team-card .details ul li {
